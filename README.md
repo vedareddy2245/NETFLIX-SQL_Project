@@ -6,10 +6,10 @@
 This project involves analyzing the Netflix Movies and TV Shows dataset using SQL to extract meaningful insights about content distribution, trends, and patterns on Netflix.The project demonstrates SQL querying skills, including filtering, aggregation, grouping, and date-based analysis on a real-world dataset.The following README provides a detailed account of the project's objectives, business problems, solutions, findings, and conclusions.
 
 # Objectives
--Analyze the distribution of content types (movies vs TV shows).
--Identify the most common ratings for movies and TV shows.
--Understand content based on release years, countries, durations and recent additions.
--Explore and categorize content based on specific criteria and keywords.\
+- Analyze the distribution of content types (movies vs TV shows).
+- Identify the most common ratings for movies and TV shows.
+- Understand content based on release years, countries, durations and recent additions.
+- Explore and categorize content based on specific criteria and keywords.\
 
 # Dataset
 The data for this project is sourced from the Kaggle dataset:
@@ -190,11 +190,11 @@ GROUP BY Category;
 **Objective:** Categorize content as 'Bad' if it contains 'kill' or 'violence' and 'Good' otherwise. Count the number of items in each category.
 
 # Findings and Conclusion
--Content Distribution: The dataset contains a wide range of Movies and TV Shows with different genres and ratings.
--Ratings Analysis: Common ratings help understand the target audience for Movies and TV Shows.
--Geographical Insights: The top countries and the average content releases by India highlight regional content distribution.
--Time-Based Trends: Content additions have increased in recent years, showing Netflix’s rapid growth.
--Content Categorization: Categorizing content based on specific keywords helps in understanding the nature of content available on Netflix.
--People Analysis: Certain directors and actors appear frequently, showing their strong presence on the platform.
--Data Quality: Some records contain missing director information, reflecting real-world data challenges.
--This analysis provides a comprehensive view of Netflix's content and can help inform content strategy and decision-making.
+- Content Distribution: The dataset contains a wide range of Movies and TV Shows with different genres and ratings.
+- Ratings Analysis: Common ratings help understand the target audience for Movies and TV Shows.
+- Geographical Insights: The top countries and the average content releases by India highlight regional content distribution.
+- Time-Based Trends: Content additions have increased in recent years, showing Netflix’s rapid growth.
+- Content Categorization: Categorizing content based on specific keywords helps in understanding the nature of content available on Netflix.
+- People Analysis: Certain directors and actors appear frequently, showing their strong presence on the platform.
+- Data Quality: Some records contain missing director information, reflecting real-world data challenges.
+- This analysis provides a comprehensive view of Netflix's content and can help inform content strategy and decision-making.
